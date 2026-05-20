@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ===== SEO ===== -->
+    <meta
+      name="description"
+      content="Welcome to the personal portfolio website of Yogesh Patel, a skilled frontend developer. Explore my projects and experience in HTML, CSS, JavaScript, React-Js and more. Contact me to discuss your next project. Yogesh Patel"
+    />
+    <meta
+      name="description"
+      content="Frontend development
+    HTML
+    CSS
+    JavaScript
+    Web design
+    User experience (UX)
+    User interface (UI)
+    Responsive design
+    Cross-browser compatibility
+    Website optimization
+    Web development projects
+    Portfolio
+    Yogesh Patel
+    Freelance frontend developer
+    Web development services"
+    />
+    <title>Yogesh Patel | Personal Portfolio</title>
+    <!-- ===== Favicon ===== -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet " href="css/Style.css " />
+    <!-- ===== BOX ICONS ===== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Replace your existing Firebase scripts with these -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+  </head>
+
+  <body>
+    <!--===== HEADER =====-->
+    <div class="header l-header">
+      <nav class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#education" class="nav__link">Education</a>
+          </li>
+          <!-- <li class="nav__item "><a href="#services" class="nav__link ">Services</a></li> -->
+          <li class="nav__item">
+            <a href="#works" class="nav__link">Works</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact Me</a>
+          </li>
+          <!-- <li class="name__home"><a href="#home" class="nav__link ">Yogesh</a></li> -->
+        </ul>
+      </nav>
+    </div>
+
+    <!--===== HOME =====-->
+    <section class="home" id="home">
+      <div class="home__container bd-grid">
+        <div class="home__data">
+          <h1 class="home__title">Yogesh Patel</h1>
+
+          <span class="home__profession">Software Developer</span>
+          <div class="home__social">
+            <a
+              href="https://www.linkedin.com/in/yogeshpatel09/"
+              target="_blank"
+              class="home__social-link"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/yogeshpatel09"
+              target="_blank"
+              class="home__social-link"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a
+              href="mailto: yogeshpatel7028@gmail.com"
+              target="_blank"
+              class="home__social-link"
+              ><i class="bx bxs-envelope"></i
+            ></a>
+          </div>
+          <div class="my__Button">
+            <a
+              href="https://drive.google.com/file/d/1aE9qHWz96vM6nLBXGU0q1BlmUgI3Zmct/view?usp=sharing"
+              target="_blank"
+            >
+              <div><i class="bx bx-book-open"></i> View Resume</div>
+            </a>
+            <a
+              href="https://drive.google.com/u/0/uc?id=1aE9qHWz96vM6nLBXGU0q1BlmUgI3Zmct&export=download"
+              target="_blank"
+            >
+              <div><i class="bx bxs-download"></i> Download Resume</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+      <div class="about__me">
+        <span class="section-subtitle">My Intro</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="about__container bd-grid">
+        <div class="about__data">
+          <p class="about__description">
+            As a self-taught web developer, I've honed my skills in HTML, CSS,
+            and JavaScript, specializing in React.js and the MERN stack
+            (MongoDB, Express.js, React.js, Node.js). Proficient in both
+            Frontend and Backend development, I architect seamless full-stack
+            applications. <br /><br />
+            I am passionate about learning new technologies and staying updated with the latest trends in web development. My focus is always on writing clean, maintainable code and creating modern, high-performance applications that deliver a great user experience.
+          </p>
+          <img src="images/Image.jpg " alt=" " class="about__img" />
+        </div>
+        <div class="about__detail">
+          <div class="about__information">
+            <h3 class="about__information-title">Information:</h3>
+
+            <div class="about__information-data">
+              <i class="bx bxs-user about__information-icon"></i>
+              <span>Yogesh Patel</span>
+            </div>
+
+            <div class="about__information-data">
+              <i class="bx bxs-phone about__information-icon"></i>
+              <span>+91-7691967085</span>
+            </div>
+
+            <div class="about__information-data">
+              <i class="bx bxs-envelope about__information-icon"></i>
+              <span
+                ><a href="mailto:yogeshpatel7028@gmail.com"
+                  >yogeshpatel7028@gmail.com</a
+                ></span
+              >
+            </div>
+          </div>
+
+          <div class="about__information">
+            <h3 class="about__information-title">Experience and Support:</h3>
+
+            <div class="about__information-data">
+              <i class="bx bx-medal about__information-icon"></i>
+              <div>
+                <span class="about__information-subtitle">1+ Year Work</span>
+                <span class="about__information-subtitle-small"
+                  >Experience</span
+                >
+              </div>
+            </div>
+
+            <div class="about__information-data">
+              <i class="bx bx-support about__information-icon"></i>
+              <div>
+                <span class="about__information-subtitle">Support</span>
+                <span class="about__information-subtitle-small"
+                  >Online 24/7</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="about__information">
+            <h3 class="about__information-title">Skills:</h3>
+
+            <div class="about__information-skills_container">
+              <div class="about__information-data">
+                <i
+                  class="bx bxl-react about__information-icon"
+                  style="color: #61dbfb"
+                ></i>
+                <div>
+                  <span class="about__information-subtitle">React-Js</span>
+                  <!-- <span class="about__information-subtitle-small ">Experience</span> -->
+                </div>
+              </div>
+
+              <div class="about__information-data">
+                <i
+                  class="bx bxl-nodejs about__information-icon"
+                  style="color: #6cc24a"
+                ></i>
+                <div>
+                  <span class="about__information-subtitle">Node-Js</span>
+                  <!-- <span class="about__information-subtitle-small ">Online 24/7</span> -->
+                </div>
+              </div>
+
+              <div class="about__information-data">
+                <i
+                  class="bx bxl-mongodb about__information-icon"
+                  style="color: #00684a"
+                ></i>
+                <div>
+                  <span class="about__information-subtitle">MongoDB</span>
+                  <!-- <span class="about__information-subtitle-small ">Online 24/7</span> -->
+                </div>
+              </div>
+
+              <div class="about__information-data">
+                <i
+                  class="bx bxl-html5 about__information-icon"
+                  style="color: #e34c26"
+                ></i>
+                <div>
+                  <span class="about__information-subtitle">HTML-5</span>
+                  <!-- <span class="about__information-subtitle-small ">Completed</span> -->
+                </div>
+              </div>
+
+              <div class="about__information-data">
+                <i
+                  class="bx bxl-css3 about__information-icon"
+                  style="color: #264de4"
+                ></i>
+                <div>
+                  <span class="about__information-subtitle">CSS-3</span>
+                </div>
+              </div>
+
+              <div class="about__information-data">
+                <i
+                  class="bx bxl-javascript about__information-icon"
+                  style="color: #f0db4f"
+                ></i>
+                <div>
+                  <span class="about__information-subtitle">JavaScript</span>
+                  <!-- <span class="about__information-subtitle-small ">Online 24/7</span> -->
+                </div>
+              </div>
+              <div class="about__information-data">
+                <i
+                  class="bx bxl-git about__information-icon"
+                  style="color: #f34f29"
+                ></i>
+                <div>
+                  <span class="about__information-subtitle">Git</span>
+                  <!-- <span class="about__information-subtitle-small ">Online 24/7</span> -->
+                </div>
+              </div>
+
+              <div class="about__information-data">
+                <i
+                  class="bx bxl-github about__information-icon"
+                  style="color: #171515"
+                ></i>
+                <div>
+                  <span class="about__information-subtitle">GitHub</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===== EDUCATION =====-->
+    <section class="education section" id="education">
+      <span class="section-subtitle">Qualification</span>
+      <h2 class="section-title">My Education</h2>
+
+      <div class="education__container bd-grid">
+
+        <div class="education__content">
+          <div>
+            <h3 class="education__year">2021 - 2025</h3>
+            <span class="education__university"
+              >VishwaVidyalaya Engineering College, Ambikapur</span
+            >
+          </div>
+
+          <div class="education__time">
+            <span class="education__rounder"></span>
+            <span class="education__line"></span>
+          </div>
+
+          <div>
+            <h3 class="education__race">Bachelor of Technology</h3>
+            <span class="education__specialty"
+              >Computer Science and Engineering Undergrad</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===== WORKS =====-->
+    <section class="works section" id="works">
+      <span class="section-subtitle">My Portfolio</span>
+      <h2 class="section-title">Recent Works</h2>
+
+      <div class="works__container bd-grid">
+        <div class="works__img">
+          <img src="images/Repos/chit-chat.png" alt="" />
+
+          <div class="works__data">
+            <a
+              href="https://chit-chat-live.vercel.app/"
+              target="_blank"
+              class="works__link"
+              ><i class="bx bx-link-alt"></i
+            ></a>
+            <span class="works__title">Project 1</span>
+            <a
+              href="https://github.com/yogeshpatel09/mern-chat-app"
+              target="_blank"
+              class="works__link"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <span class="works__title">GitHub</span>
+          </div>
+        </div>
+
+        <div class="works__img">
+          <img src="images/Repos/tiles-match.png" alt="" />
+
+          <div class="works__data">
+            <a
+              href="https://tiles-match-game.netlify.app/"
+              target="_blank"
+              class="works__link"
+              ><i class="bx bx-link-alt"></i
+            ></a>
+            <span class="works__title">Project 2</span>
+            <a
+              href="https://github.com/yogeshpatel09/Tiles-Match-Game"
+              target="_blank"
+              class="works__link"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <span class="works__title">GitHub</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+      <span class="section-subtitle">Contact Me</span>
+      <h2 class="section-title">Get In Touch</h2>
+
+      <div class="contact__container bd-grid">
+        <form id="contactForm" class="contact__form">
+          <div
+            class="alert"
+            style="
+              display: none;
+              background: #4caf50;
+              color: white;
+              padding: 10px;
+              border-radius: 5px;
+              margin-bottom: 15px;
+            "
+          >
+            ✅ Message sent successfully! I'll get back to you soon.
+          </div>
+          <div
+            class="error-alert"
+            style="
+              display: none;
+              background: #f44336;
+              color: white;
+              padding: 10px;
+              border-radius: 5px;
+              margin-bottom: 15px;
+            "
+          >
+            ❌ Failed to send message. Please try again.
+          </div>
+
+          <div class="contact__inputs">
+            <input
+              type="text"
+              placeholder="Your Name"
+              id="name"
+              class="contact__input"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Your Email"
+              id="emailId"
+              class="contact__input"
+              required
+            />
+          </div>
+
+          <textarea
+            id="messageContent"
+            cols="0"
+            rows="10"
+            placeholder="Your Message"
+            class="contact__input"
+            required
+          ></textarea>
+
+          <div class="my__Button">
+            <button type="submit" id="submit" class="button contact__button">
+              Send Message
+            </button>
+          </div>
+        </form>
+        <div class="personal__info">
+          <div class="contact__info">
+            <h3 class="contact__subtitle">Contact Number</h3>
+            <span class="contact__text">+91 7691967085</span>
+          </div>
+
+          <div class="contact__info">
+            <h3 class="contact__subtitle">E-Mail</h3>
+            <span class="contact__text"
+              ><a href="mailto:yogeshpatel7028@gmail.com" target="_blank"
+                >yogeshpatel7028@gmail.com</a
+              ></span
+            >
+          </div>
+
+          <div class="contact__info">
+            <h3 class="contact__subtitle">Location</h3>
+            <span class="contact__text">Raigarh, Chhattisgarh, India</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+      <div class="footer__container bd-grid">
+        <h1 class="footer__title">Yogesh Patel</h1>
+        <p class="footer__description">
+          This is Yogesh and this is my Personal Website, consult me here.
+        </p>
+
+        <div class="footer__social">
+          <a
+            href="mailto:yogeshpatel7028@gmail.com"
+            target="_blank"
+            class="footer__link"
+            ><i class="bx bxs-envelope"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/yogeshpatel.me/"
+            target="_blank"
+            class="footer__link"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <!-- <a href="https://twitter.com/yogeshpatel09" target="_blank" class="footer__link"><i class='bx bxl-twitter' ></i></a> -->
+          <a
+            href="https://www.linkedin.com/in/yogeshpatel09/"
+            target="_blank"
+            class="footer__link"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+        </div>
+
+        <!-- <p class="footer__copy">&copy; No Copyrights, feel free to use this template in my Github Repository.</p> -->
+        <p class="footer__copy">
+          © <span id="currentYear"></span>
+          <a href="#home" class="footer__copy-hover">Yogesh Patel</a>. All
+          rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js"></script> -->
+    <script src="./script/contactForm.js"></script>
+    <script>
+      // Get the current year
+      var currentYear = new Date().getFullYear();
+
+      // Update the content of the span element with the current year
+      document.getElementById("currentYear").textContent = currentYear;
+    </script>
+  </body>
+</html>
